@@ -1,0 +1,18 @@
+# Dane - każdy ma lokalnie
+data/
+*.zip
+
+# Duże checkpointy treningowe (lekki model jest w models/)
+baseline_outputs/checkpoints/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# System
+.DS_Store
+Thumbs.db
