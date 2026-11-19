@@ -1,0 +1,26 @@
+2026-11-17 13:21:23,118 | INFO | === SANITY CHECK: overfit na jednym batchu ===
+2026-11-17 13:21:23,118 | INFO | HPARAMS {"csv": "C:\\Users\\klaud\\Desktop\\Studia\\year 4\\DNN\\code\\plant-pathology\\data\\train.csv", "images_dir": "C:\\Users\\klaud\\Desktop\\Studia\\year 4\\DNN\\code\\plant-pathology\\data\\train_images", "batch_size": 32, "iters": 200, "lr": 0.001, "log_every": 10, "weight_decay": 0.0, "dropout": 0.5, "device": "cpu", "started": "2026-11-17T13:21:23"}
+2026-11-17 13:21:25,891 | INFO | Batch: (32, 3, 224, 224), pozytywy na klasę: [2.0, 8.0, 8.0, 1.0, 4.0, 10.0]
+2026-11-17 13:21:27,217 | INFO | iter    1 | loss 0.68659 | macro_F1 0.2153 | exact_match 0.0000
+2026-11-17 13:21:37,126 | INFO | iter   10 | loss 0.09134 | macro_F1 0.6547 | exact_match 0.4062
+2026-11-17 13:21:47,900 | INFO | iter   20 | loss 0.01970 | macro_F1 0.9889 | exact_match 0.9688
+2026-11-17 13:21:59,403 | INFO | iter   30 | loss 0.00562 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:22:12,072 | INFO | iter   40 | loss 0.00335 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:22:27,056 | INFO | iter   50 | loss 0.00265 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:22:39,529 | INFO | iter   60 | loss 0.00165 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:22:51,473 | INFO | iter   70 | loss 0.00134 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:23:03,712 | INFO | iter   80 | loss 0.00126 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:23:14,795 | INFO | iter   90 | loss 0.00122 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:23:25,644 | INFO | iter  100 | loss 0.00083 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:23:37,633 | INFO | iter  110 | loss 0.00079 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:23:49,316 | INFO | iter  120 | loss 0.00084 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:24:01,536 | INFO | iter  130 | loss 0.00110 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:24:13,220 | INFO | iter  140 | loss 0.00059 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:24:25,195 | INFO | iter  150 | loss 0.00076 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:24:37,455 | INFO | iter  160 | loss 0.00064 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:24:49,241 | INFO | iter  170 | loss 0.00052 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:25:00,524 | INFO | iter  180 | loss 0.00043 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:25:12,236 | INFO | iter  190 | loss 0.00045 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:25:24,113 | INFO | iter  200 | loss 0.00036 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:25:24,586 | INFO | FINAL (eval) | loss 0.00024 | macro_F1 1.0000 | exact_match 1.0000
+2026-11-17 13:25:24,587 | INFO | WYNIK: PASS - model potrafi się przeuczyć, trening działa

@@ -26,7 +26,7 @@ DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 DEFAULT_HPARAMS = {
     'batch_size': 32,
     'num_workers': 2,       # ustaw 0, jeśli DataLoader się wiesza
-    'num_epochs': 30,
+    'num_epochs': 2,        # for testing only 2
     'learning_rate': 1e-3,
     'weight_decay': 1e-4,
     'patience': 3,
